@@ -11,4 +11,4 @@ RUN apt-get update && apt-get install yarn
 
 COPY . /rian
 WORKDIR /rian
-CMD ["./scripts/aws/wait-for-it.sh","mongodb:27017","--","./scripts/aws/BeforeDockerCompose.sh"]
+
